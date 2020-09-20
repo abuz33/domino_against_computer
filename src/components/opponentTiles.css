@@ -1,0 +1,13 @@
+.tilesOpponent {
+  position: absolute !important;
+  top: 10% !important;
+  left: 25% !important;
+  width: 50% !important;
+  height: 20% !important;
+  display: flexbox !important;
+}
+
+.tilesOpponent button {
+  width: 6%;
+  margin: 5px;
+}

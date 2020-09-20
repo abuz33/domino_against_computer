@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: aliceblue;
 }
 
 .App-logo {
@@ -26,6 +27,22 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.board {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 60%;
+  height: calc(50%-20px);
+}
+
+.draw {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  width: 100px;
+  height: 30px;
 }
 
 @keyframes App-logo-spin {
